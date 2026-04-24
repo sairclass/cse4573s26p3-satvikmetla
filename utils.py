@@ -70,5 +70,5 @@ def files2zip(files: list, zip_file_name: str):
 
 if __name__ == "__main__":
     args = parse_args()
-    file_list = ['face.py', 'result_task1.json','result_task1_val.json', 'result_task2.json']
+    file_list = ['face.py', 'result_task1.json','result_task1_val.json', 'result_task2.json', 'viz_task1.png', 'viz_task2.png']
     files2zip(file_list, 'submission_' + args.ubit + '.zip')

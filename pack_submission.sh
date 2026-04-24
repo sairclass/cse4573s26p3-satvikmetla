@@ -8,3 +8,4 @@ python utils.py --ubit $1
 
 # For visualization
 python visualize.py --task1_val result_task1.json --task2 result_task2.json --img_dir test_folder/images --cluster_dir faceCluster_5
+python utils.py --ubit $1
